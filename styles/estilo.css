@@ -36,7 +36,8 @@ body {background-image: url('../images/ChaosTheory1_montage.jpg');
   background-size: cover;
 }
 
-#wrapper {background-color: blue;
+#wrapper {background-color: cornflowerblue;
+          color: darkmagenta;
           margin: auto;
           width: 80%;}
 
@@ -58,6 +59,8 @@ body {background-image: url('../images/ChaosTheory1_montage.jpg');
   font-size: 2em;
   padding: 1rem;
 }
+
+img.responsive {width: 100%;}
 
 
 /********** ESTILO DE NAVEGACIÓN (Traida de w3schools) **********/
@@ -145,10 +148,9 @@ body {background-image: url('../images/ChaosTheory1_montage.jpg');
 /********** INTRO **********/
 
 #intro {
-  color:crimson;
   font-family: normal;
-  padding: auto;
-  border-bottom: 1px solid rgb(67, 211, 11) ;
+  padding: 20px;
+  border-bottom: 2px solid rgb(211, 11, 11);
 }
 
 #texto {
@@ -162,33 +164,31 @@ body {background-image: url('../images/ChaosTheory1_montage.jpg');
         padding: 10px;}
 
 .col1 {
-  /*width: 25%;*/
   float: left;
-  width: 50%;
+  padding: 10px;
 }
 
 /********** MTMTE **********/
 
 #MTMTE {
-  background-color: aqua;
   font-family: normal;
   padding: auto;
-  border-bottom: 1px solid rgb(67, 211, 11);
-  color: coral;
+  border-bottom: 2px solid rgb(211, 11, 11);
 }
 
 .grid4 {
   display: grid;
   grid-template-columns: 50% 50%;
+  padding: 10px;
 }
 
 .col4 {
-  padding: 4%;
+  padding: 10px;
 }
 
 .container {
   position: relative;
-  width: 50%;
+  width: 100%;
   float: left;
   padding: 2%;
   box-sizing: border-box;
@@ -197,11 +197,9 @@ body {background-image: url('../images/ChaosTheory1_montage.jpg');
 /********** RID **********/
 
 #RID {
-  background-color:blueviolet;
   font-family: normal;
-  color: chartreuse;
   padding: auto;
-  border-bottom: 1px solid rgb(67, 211, 11);
+  border-bottom: 2px solid rgb(211, 11, 11);
 }
 
 #RID h1 {
@@ -213,9 +211,8 @@ body {background-image: url('../images/ChaosTheory1_montage.jpg');
 /********** CROSSOVERS **********/
 
 #crossovers {
-  background-color: cornflowerblue;
   font-family: normal;
-  color: darkmagenta;
+  border-bottom: 2px solid rgb(211, 11, 11);
 }
 
 .grid5 {
@@ -224,12 +221,12 @@ body {background-image: url('../images/ChaosTheory1_montage.jpg');
 }
 
 .col5 {
-  padding: 4%;
+  padding: 10px;
 }
 
 .container3 {
   position: relative;
-  width: 50%;
+  width: 100%;
   float: left;
   padding: 2%;
   box-sizing: border-box;
@@ -238,22 +235,14 @@ body {background-image: url('../images/ChaosTheory1_montage.jpg');
 /********** CHARACTERS **********/
 
 #characters {
-  background-color:blue;
   font-family: normal;
-  color: crimson;
   padding: auto;
-  border-bottom: 1px solid rgb(67, 211, 11);
+  border-bottom: 2px solid rgb(211, 11, 11);
 }
 
 .grid2 {
   display: grid;
   grid-template-columns: 50% 50%;
-}
-
-.col {
-  padding: 20px;
-  float: left;
-  text-align: center;
 }
 
 .col img {
@@ -262,15 +251,21 @@ body {background-image: url('../images/ChaosTheory1_montage.jpg');
 
 .grid3 {
   display: grid;
-  grid-template-columns: 25% 25% 50%;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.col3 {
+  padding: 20px;
+  float: left;
+  text-align: center;
 }
 
 .container {
   position: relative;
   width: 100%;
-  float: left;
-  padding: 2%;
-  box-sizing: border-box;
+  /*float: left;*/
+  padding: 10px;
+  /*box-sizing: border-box;*/
 }
 
 /********** FOOTER **********/
@@ -300,7 +295,7 @@ footer {
 @media only screen and (width<=1000px) {
   /*#titulo {font-size: 3rem;}*/
   .grid1 {grid-template-columns: 100%;}
-  .col1 {width: 25%;}
+  .col1 {width: 100%;}
 }
 
 @media only screen and (width<=900px) {
